@@ -1,11 +1,11 @@
 .side-bar{
   position: fixed;
-	width: 250px;
+	width: 225px;
   height: 100%;
   overflow: auto;
 	background-color: #2F124F;
 	color: white;
-	font-size: 24px;
+	font-size: 22px;
 	font-family: "adobe-garamond-pro", serif;
 	font-style: normal;
 	padding: 1%;
@@ -14,13 +14,13 @@
 .new-chat{
 	background-color: #FFC72A;
 	border-radius: 100%;
-	width: 65px;
-	height: 65px;
+	width: 55px;
+	height: 55px;
 	font-size: 30px;
 }
 
 .new-chat-text{
-	font-size: 24px;
+	font-size: 20px;
 	padding-left: 10px;
 }
 

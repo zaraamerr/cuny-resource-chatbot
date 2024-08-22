@@ -5,9 +5,12 @@ class InfoPanel extends Component {
   render() {
     return (
       <div className="infopanel-main">
-        <h2>More Information</h2>
-        <p>Link to Website</p>
-        <p>Upcoming Events</p>
+        <h2 style={{textAlign:"left"}}>More Information</h2>
+          <p style={{paddingBottom: "15px", borderBottom: "1px solid"}}>
+            Link to Website <i style={{float: "right"}} class="fa-solid fa-link"></i>
+          </p>
+
+        <p style={{paddingTop: "35px"}}>Upcoming Events</p>
         <textarea></textarea>
       </div>
     );
