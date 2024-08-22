@@ -1,29 +1,60 @@
 .side-bar{
   position: fixed;
-	width: 225px;
+  width: 225px;
   height: 100%;
   overflow: auto;
-	background-color: #2F124F;
-	color: white;
-	font-size: 22px;
-	font-family: "adobe-garamond-pro", serif;
-	font-style: normal;
-	padding: 1%;
+  background-color: #2F124F;
+  color: white;
+  font-size: 22px;
+  font-family: "adobe-garamond-pro", serif;
+  padding: 1%;
 }
 
 .new-chat{
-	background-color: #FFC72A;
-	border-radius: 100%;
-	width: 55px;
-	height: 55px;
-	font-size: 30px;
+    background-color: #FFC72A;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.new-chat-button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .new-chat-text{
-	font-size: 20px;
-	padding-left: 10px;
+    font-size: 20px;
+    padding-left: 15px;
 }
 
-.content{
-	padding-top: 25%;
+.new-chat-content{
+    padding-top: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.chat-history, .info-pages {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.chat-item, .info-item {
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.chat-item:hover, .info-item:hover {
+  text-decoration: underline;
 }
