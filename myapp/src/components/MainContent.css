@@ -1,10 +1,48 @@
-input{
-	width: 800px;
-	border-radius: 1%;
-	margin-top: 40%;
-	padding: 1%;
+.main-content {
+  padding: 20px;
 }
 
-.send-button{
-	padding: 1%;
+.suggestions {
+  margin-top: 35%;
+  margin-bottom: 10px;
+}
+
+.suggestion-button {
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.suggestion-button:hover {
+  opacity: 0.8;
+}
+
+.text-input {
+  display: flex;
+  align-items: center;
+}
+
+.text-input input {
+  flex: 1;
+  border: none;
+  border-radius: 1%;
+  margin-top: 2%;
+  margin-left: 20%;
+  padding: 1%;
+}
+
+.send-button {
+  padding: 1%;
+  margin-top: 2%;
+  margin-right: 20%;
+  border: none;
+}
+
+.send-button i {
+  font-size: 16px;
 }
