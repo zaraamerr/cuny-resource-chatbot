@@ -9,7 +9,7 @@ class MainContent extends Component {
         <input
           style={{backgroundColor: "#D6CAE3" }}
           type="text"
-          placeholder="Enter Inquiry Here"
+          placeholder="Where can I find..."
         />
         <button class="send-button" style={{ backgroundColor: "#2F124F" }}>
           <i style={{ color: "#FFC72A" }} class="far fa-paper-plane"></i>
