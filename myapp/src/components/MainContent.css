@@ -1,0 +1,10 @@
+input{
+	width: 800px;
+	border-radius: 1%;
+	margin-top: 40%;
+	padding: 1%;
+}
+
+.send-button{
+	padding: 1%;
+}
