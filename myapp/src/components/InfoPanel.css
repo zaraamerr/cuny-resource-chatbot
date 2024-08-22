@@ -1,0 +1,25 @@
+.infopanel-main {
+  background-color: #2f124f;
+  border-radius: 3%;
+  padding: 1%;
+  color: white;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 80%;
+	margin: 3%;
+
+	font-family: "adobe-garamond-pro", serif;
+	font-style: normal;
+}
+
+.infopanel-main p{
+	text-align: left;
+	text-decoration: underline;
+}
+
+.infopanel-main textarea{
+	height: 150px;
+}

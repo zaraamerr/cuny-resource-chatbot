@@ -4,8 +4,11 @@ import "./../components/InfoPanel.css";
 class InfoPanel extends Component {
   render() {
     return (
-      <div>
-        
+      <div className="infopanel-main">
+        <h2>More Information</h2>
+        <p>Link to Website</p>
+        <p>Upcoming Events</p>
+        <textarea></textarea>
       </div>
     );
   }
