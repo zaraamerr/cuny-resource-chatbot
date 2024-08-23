@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cuny-resource-chatbot/static/css/main.75cf2481.css",
+    "main.js": "/cuny-resource-chatbot/static/js/main.8ef6931f.js",
+    "static/media/fa-solid-900.ttf": "/cuny-resource-chatbot/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/cuny-resource-chatbot/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/cuny-resource-chatbot/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/cuny-resource-chatbot/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/cuny-resource-chatbot/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/cuny-resource-chatbot/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/cuny-resource-chatbot/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/cuny-resource-chatbot/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/cuny-resource-chatbot/index.html",
+    "main.75cf2481.css.map": "/cuny-resource-chatbot/static/css/main.75cf2481.css.map",
+    "main.8ef6931f.js.map": "/cuny-resource-chatbot/static/js/main.8ef6931f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75cf2481.css",
+    "static/js/main.8ef6931f.js"
+  ]
+}
