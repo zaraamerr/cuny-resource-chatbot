@@ -47,7 +47,7 @@ async function waitForFilesActive(files) {
 }
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.0-pro",
+  model: "gemini-1.5-pro",
 });
 
 const generationConfig = {
