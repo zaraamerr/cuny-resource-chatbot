@@ -55,17 +55,17 @@ function Scroll() {
         }
       ]);
 
-    useEffect(() => {
-        fetch('/scrapedData.json')
-            .then(response => response.json())
-            .then(data => setEvents(data))
-            .catch(error => console.error('Error fetching data:', error));
-    }, []);
-    console.log(events)
+    // useEffect(() => {
+    //     fetch('/scrapedData.json')
+    //         .then(response => response.json())
+    //         .then(data => setEvents(data))
+    //         .catch(error => console.error('Error fetching data:', error));
+    // }, []);
+    // console.log(events)
 
     return (
         <div className="event-list">
-            {events.map((event, index) => (
+            {events && events.map((event, index) => (
                 <div key={index} className="event-item">
                     <a href={event.link} target="_blank" rel="noopener noreferrer">
                         <h3>{event.title}</h3>
