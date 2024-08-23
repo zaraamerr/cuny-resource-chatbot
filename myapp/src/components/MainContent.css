@@ -51,7 +51,9 @@
   position: fixed;
   margin-left: 25%;
   width: 50%;
-  height: 65%;
+  height: 70%;
+  overflow-y: scroll;
+  overflow: auto;
 }
 
 .user {
@@ -75,5 +77,6 @@
   max-width: 70%;
   margin-right: auto;
   list-style-type: none;
+  width: fit-content;
   width: fit-content;
 }

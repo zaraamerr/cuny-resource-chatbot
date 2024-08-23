@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import ReactMarkdown from "react-markdown";
 import "./../components/MainContent.css";
 
 const MainContent = () => {
@@ -45,6 +46,7 @@ const MainContent = () => {
   const handleKeyDown = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
       handleSendMessage();
+      setInputValue("");
       setChatHistory((prev) => [...prev, { type: "user", text: inputValue }]);
     }
   };
@@ -58,7 +60,9 @@ const MainContent = () => {
               {log.type === "user" ? (
                 <li className="user">{log.text}</li>
               ) : (
-                <li className="chatbot">{log.text}</li>
+                <li className="chatbot">
+                  <ReactMarkdown>{log.text}</ReactMarkdown>
+                </li>
               )}
             </ul>
           );
