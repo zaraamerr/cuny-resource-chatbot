@@ -5,6 +5,7 @@ import "./../components/MainContent.css";
 
 const MainContent = () => {
   const [inputValue, setInputValue] = useState("");
+  const [chatHistory, setChatHistory] = useState([]);
   const [output, setOutput] = useState("");
 
   const handleInputChange = (e) => {
@@ -34,17 +35,35 @@ const MainContent = () => {
 
     const data = await response.json();
     setOutput(data.response);
+    setChatHistory((prev) => [
+      ...prev,
+      { type: "chatbot", text: data.response },
+    ]);
     console.log(data.response);
   };
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
       handleSendMessage();
+      setChatHistory((prev) => [...prev, { type: "user", text: inputValue }]);
     }
   };
 
   return (
     <div className="main-content">
+      <div className="chat">
+        {chatHistory.map((log, index) => {
+          return (
+            <ul className="logs" key={index}>
+              {log.type === "user" ? (
+                <li className="user">{log.text}</li>
+              ) : (
+                <li className="chatbot">{log.text}</li>
+              )}
+            </ul>
+          );
+        })}
+      </div>
       <div className="suggestions">
         <button
           className="suggestion-button"
