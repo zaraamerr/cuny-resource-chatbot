@@ -1,4 +1,4 @@
-import SideBar from './components/SideBar';
+import SideBar from "./components/SideBar";
 import MainContent from './components/MainContent';
 import InfoPanel from "./components/InfoPanel";
 import EventsCalendar from "./components/EventsCalendar";

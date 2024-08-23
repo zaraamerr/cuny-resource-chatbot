@@ -8,7 +8,6 @@ function EventsCalendar() {
       <SideBar />
       <div className="calendar-content">
         <h1>Events Calendar</h1>
-        {/* Add your calendar or event content here */}
       </div>
     </div>
   );
