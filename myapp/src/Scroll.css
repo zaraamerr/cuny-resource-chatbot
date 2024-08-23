@@ -1,0 +1,41 @@
+/* Scroll.css */
+
+.event-list {
+    max-height: 400px; /* Adjust this value to control the height of the scrollable area */
+    overflow-y: auto;  /* Enables vertical scrolling if content exceeds the max height */
+    border: 1px solid #ddd; /* A subtle border around the list */
+    padding: 10px; /* Space around the items within the list */
+    background-color: #f9f9f9; /* Light background color for the event list */
+    border-radius: 5px; /* Slight rounding of the corners */
+    box-shadow: 0 2px 5px rgba(71, 23, 23, 0.1); /* Adds a slight shadow for depth */
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.event-item {
+    display: flex;
+    flex-direction: column; /* Ensure the title and date/time are stacked */
+    padding: 8px 0; /* Space around each event item */
+    border-bottom: 1px solid #eee; /* A light line between each event */
+}
+
+.event-item:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
+
+.event-item a {
+    color: #d63384; /* A shade of pink for the event titles (links) */
+    text-decoration: none; /* Remove the underline from links */
+    font-size: 1.1em; /* Slightly larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+}
+
+.event-item a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+.event-item p {
+    color: #555; /* A darker grey for the date/time text */
+    font-size: 0.9em; /* Slightly smaller font size for the date/time */
+    margin: 5px 0 0; /* Space between the title and date/time */
+}

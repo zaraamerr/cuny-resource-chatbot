@@ -1,0 +1,82 @@
+.main-content {
+  padding: 20px;
+}
+
+.suggestions {
+  margin-top: 35%;
+  margin-bottom: 10px;
+}
+
+.suggestion-button {
+  border: none;
+  color: #000;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.suggestion-button:hover {
+  opacity: 0.8;
+}
+
+.text-input {
+  display: flex;
+  align-items: center;
+}
+
+.text-input input {
+  flex: 1;
+  border: none;
+  border-radius: 1%;
+  margin-top: 2%;
+  margin-left: 20%;
+  padding: 1%;
+}
+
+.send-button {
+  padding: 1%;
+  margin-top: 2%;
+  margin-right: 20%;
+  border: none;
+}
+
+.send-button i {
+  font-size: 16px;
+}
+
+.chat{
+  position: fixed;
+  margin-left: 25%;
+  width: 50%;
+  height: 70%;
+  overflow-y: scroll;
+  overflow: auto;
+}
+
+.user {
+  background-color: #D6CAE3;
+  padding: 10px;
+  border-radius: 25px;
+  align-self: flex-end;
+  text-align: right;
+  max-width: 70%;
+  margin-left: auto;
+  list-style-type: none;
+  width: fit-content;
+}
+
+.chatbot {
+  background-color: #D6CAE3;
+  padding: 10px;
+  border-radius: 25px;
+  align-self: flex-start;
+  text-align: left;
+  max-width: 70%;
+  margin-right: auto;
+  list-style-type: none;
+  width: fit-content;
+  width: fit-content;
+}

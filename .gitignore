@@ -1,0 +1,5 @@
+node_modules
+
+myapp/src/backend/.env
+myapp/package-lock.json
+myapp/package.json
