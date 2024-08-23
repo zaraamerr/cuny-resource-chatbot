@@ -1,0 +1,29 @@
+.table-calendar {
+    width: 100%; /* Make the table take up the full width of its container */
+    border-collapse: collapse; /* Remove gaps between cells */
+}
+
+.table-calendar th, .table-calendar td {
+    width: 25px;  /* Set width of each cell */
+    height: px; /* Set height of each cell to make it square */
+    text-align: center; /* Center text inside the cells */
+    vertical-align: middle; /* Vertically center text */
+    border: 1px solid #ccc; /* Add border around each cell */
+}
+
+.table-calendar th {
+    background-color: #f0f0f0; /* Light grey background for the day headers */
+}
+
+.table-calendar td {
+    background-color: #fff; /* White background for the day cells */
+}
+
+.table-calendar td.empty {
+    background-color: #f9f9f9; /* Light grey background for empty cells */
+}
+
+.table-calendar td:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    cursor: pointer;
+}
