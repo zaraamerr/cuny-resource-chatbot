@@ -7,7 +7,7 @@ At the same time, students can see the most recent events Hunter is hosting from
 
 # Video Walkthrough
 Here is a walkthrough of our web app: 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/zaraamerr/cuny-resource-chatbot/blob/prototype2/myapp/public/CTP%20Hackathon.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Technologies Used 
 - Python
