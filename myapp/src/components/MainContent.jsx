@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactMarkdown from "react-markdown";
@@ -71,15 +71,16 @@ const MainContent = () => {
       <div className="suggestions">
         <button
           className="suggestion-button"
+          id="Mental Health Resources"
           style={{ backgroundColor: "#ffc72a" }}
         >
-          Suggestion 1
+          Mental Health Resources
         </button>
         <button
           className="suggestion-button"
           style={{ backgroundColor: "#ffc72a" }}
         >
-          Suggestion 2
+          Food Assistance Help
         </button>
       </div>
 
