@@ -1,0 +1,15 @@
+.events-calendar {
+  display: flex;
+}
+
+.calendar-content {
+  margin-left: 225px; /* Same width as sidebar */
+  padding: 20px;
+  width: calc(100% - 225px);
+  background-color: #f5f5f5;
+}
+
+.calendar-content h1 {
+  color: #2F124F;
+  font-family: "adobe-garamond-pro", serif;
+}

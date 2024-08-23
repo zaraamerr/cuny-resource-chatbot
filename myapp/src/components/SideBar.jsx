@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./../components/SideBar.css";
 
 // only add a new chat if they entered at least one prompt 
@@ -57,7 +58,14 @@ class SideBar extends Component {
 		    <div className= "new-chat-button">
 			<button className="new-chat"></button>
 			<span className="new-chat-text">Counseling</span>
-		     </div>
+		    </div>
+
+		    <div className="new-chat-button">
+			<button className="new-chat"></button>
+			<Link to="/events-calendar" className="new-chat-link">
+			    <span className="new-chat-text">Events</span>
+			</Link>
+		    </div>
 
 		</div>
 

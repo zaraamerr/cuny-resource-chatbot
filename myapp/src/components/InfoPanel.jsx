@@ -1,16 +1,22 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./../components/InfoPanel.css";
 
 class InfoPanel extends Component {
   render() {
     return (
       <div className="infopanel-main">
-        <h2 style={{textAlign:"left"}}>More Information</h2>
-          <p style={{paddingBottom: "15px", borderBottom: "1px solid"}}>
-            Link to Website <i style={{float: "right"}} class="fa-solid fa-link"></i>
+        <h2 style={{textAlign:"center"}}>More Information</h2>
+          <p style={{paddingBottom: "35px", paddingTop: "25px", borderBottom: "1px solid"}}>
+	      <Link to="/events-calendar" className="infopanel-link">
+		  Link to Website <i style={{float: "right"}} class="fa-solid fa-link"></i>
+	      </Link>
           </p>
 
-        <p style={{paddingTop: "35px"}}>Upcoming Events</p>
+	  <Link to="/events-calendar" className="infopanel-link">
+	      <p style={{paddingTop: "15px"}}>Upcoming Events</p>
+	  </Link>
+	  
         <textarea></textarea>
       </div>
     );
