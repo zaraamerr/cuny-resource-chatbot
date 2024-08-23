@@ -24,7 +24,7 @@
 }
 
 .event-item a {
-    color: #d63384; /* A shade of pink for the event titles (links) */
+    color: #FFD700; /* A shade of pink for the event titles (links) */
     text-decoration: none; /* Remove the underline from links */
     font-size: 1.1em; /* Slightly larger font size for the title */
     font-weight: bold; /* Make the title bold */
@@ -35,7 +35,7 @@
 }
 
 .event-item p {
-    color: #555; /* A darker grey for the date/time text */
+    color: #0f0f0f; /* A darker grey for the date/time text */
     font-size: 0.9em; /* Slightly smaller font size for the date/time */
     margin: 5px 0 0; /* Space between the title and date/time */
 }
