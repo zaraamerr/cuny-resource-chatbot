@@ -33,3 +33,9 @@ Here is a walkthrough of our web app:
 - CSS
 - JavaScipt 
 - Gemini API
+
+# How to Run It
+- Clone repository into local machine
+- CD into myapp
+- Run npm i and then npm start
+- Use chatbot!
