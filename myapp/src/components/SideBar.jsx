@@ -36,32 +36,48 @@ class SideBar extends Component {
 	return (
 	    <div className="side-bar">
 		<p style={{ textTransform: "uppercase" }}>
-		    <span style={{ fontWeight: "bold" }}>Hunter </span>Essentials
+		    <Link to="/" className="new-chat-link-header">
+			<span style={{ fontWeight: "bold" }}>Hunter </span>Essentials
+		    </Link>
 		</p>
 		
 		<div className="new-chat-content">
 		    <div className= "new-chat-button">
-			<button className="new-chat" onClick={addNewChat()}>+</button>
+			<Link to="/">
+			    <button className="new-chat" onClick={addNewChat()}>+</button>
+			</Link>
+			<Link to="/" className="new-chat-link">
 			<span className="new-chat-text">New Chat</span>
+			</Link>
 		    </div>
 
 		    <div className= "new-chat-button">
-			<button className="new-chat"> </button>
+			<Link to="/">
+			<button className="new-chat"> </button> </Link>
+			<Link to="/" className="new-chat-link">
 			<span className="new-chat-text">Food</span>
+			</Link>
 		     </div>
 
 		    <div className= "new-chat-button">
-			<button className="new-chat"></button>
+			<Link to="/">
+			<button className="new-chat"></button> </Link>
+			<Link to="/" className="new-chat-link">
 			<span className="new-chat-text">Housing</span>
+			</Link>
 		     </div>
 
 		    <div className= "new-chat-button">
-			<button className="new-chat"></button>
+			<Link to="/">
+			<button className="new-chat"></button> </Link>
+			<Link to="/" className="new-chat-link">
 			<span className="new-chat-text">Counseling</span>
+			</Link>
 		    </div>
 
 		    <div className="new-chat-button">
-			<button className="new-chat"></button>
+			<Link to="/events-calendar">
+			<button className="new-chat"></button> </Link>
 			<Link to="/events-calendar" className="new-chat-link">
 			    <span className="new-chat-text">Events</span>
 			</Link>

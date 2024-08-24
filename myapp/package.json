@@ -1,12 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "homepage": "https://zaraamerr.github.io/cuny-resource-chatbot/",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,7 +21,6 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.4",
     "react": "^18.3.1",
-    "react-calendar": "^5.0.0",
     "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.26.1",
@@ -42,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
